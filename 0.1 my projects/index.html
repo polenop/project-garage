@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            position: relative;
+            text-align: center;
+            
+        }
+        .A{
+            display: block;
+            width: 600px;
+            height: 300px;
+        }
+
+        .A>img{
+            float: left;
+            padding: 5px;
+            
+        }
+
+        .A>button{
+            display: block;
+            margin: 5px;
+            background-color: gray;
+            color: white;
+        }
+        .A>button:hover{
+            color: blue;
+            background-color: black;
+        }
+
+        .nav a{
+            float: left;
+            text-align: center;
+            background-color: gray;
+            text-decoration: none;
+            color: white;
+            overflow: hidden;
+            font-size: 20px;
+            padding:10px;
+            }
+        .nav a:hover{
+            color: blue;
+            background-color: black;
+        }
+       
+       
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>My Garage</h1>
+    </header>
+    <nav>
+        <!--navigation menu with: Repairs, To be sold, Waiting list, -->
+        <div class="nav">
+            <a href="">Repairs</a>
+            <a href="">To be sold</a>
+            <a href="">Waiting list</a>
+
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="car">
+
+        <div class="car A">
+            <img src="/0.1 my projects/img/mclaren.jpg" alt="mclaren" width="150px" height="150px">
+            <p class="mclaren">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid quibusdam debitis, perferendis quo natus iure expedita nisi culpa placeat sed itaque illum alias doloribus ad a voluptate laboriosam.</p>
+            <button><a>Book</a></button>
+            <button>Notes</button>
+            <button>Status</button>
+        </div>
+
+
+        <div class="car B"></div>
+        <div class="car C"></div>
+        <div class="car D"></div>
+    </div>
+
+
+    
+</body>
+</html>
